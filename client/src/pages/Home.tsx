@@ -67,9 +67,9 @@ export default function Home() {
     <div className="site-shell">
       <header className={`site-header ${scrolled ? "site-header--scrolled" : ""}`}>
         <div className="container header-inner">
-          <a className="brand" href="#inicio" onClick={closeMenu} aria-label="Decora Marcenaria - início">
-            <span className="brand-mark"><span>D</span></span>
-            <span className="brand-copy"><strong>decora</strong><small>marcenaria de móveis planejados</small></span>
+          <a className="brand" href="#inicio" onClick={closeMenu} aria-label="Decore Marcenaria - início">
+            <span className="brand-mark" aria-hidden="true"><span>D</span></span>
+            <span className="brand-copy"><strong>Decore</strong><small>marcenaria de móveis planejados</small></span>
           </a>
           <nav className={`main-nav ${menuOpen ? "main-nav--open" : ""}`} aria-label="Navegação principal">
             <a href="#sobre" onClick={closeMenu}>A essência</a>
@@ -101,10 +101,10 @@ export default function Home() {
             <div className="hero-proof"><span className="proof-stars"><Star size={14} fill="currentColor" /> <strong>5.0</strong></span><span className="proof-divider" /><span>48 avaliações no Google</span></div>
           </div>
           <div className="hero-caption"><span>01</span><span className="caption-rule" /><span>interiores que pertencem a você</span></div>
-          <a href="#sobre" className="scroll-hint" aria-label="Rolar para conhecer a Decora"><span>scroll para descobrir</span><span className="scroll-arrow">↓</span></a>
+          <a href="#sobre" className="scroll-hint" aria-label="Rolar para conhecer a Decore"><span>scroll para descobrir</span><span className="scroll-arrow">↓</span></a>
         </section>
 
-        <section className="trust-strip" aria-label="Diferenciais da Decora">
+        <section className="trust-strip" aria-label="Diferenciais da Decore">
           <div className="container trust-grid">
             <div className="trust-item"><Ruler size={19} /><span>Projeto 100% personalizado</span></div>
             <div className="trust-item"><Clock3 size={19} /><span>Entrega no prazo combinado</span></div>
@@ -118,11 +118,11 @@ export default function Home() {
             <div className="about-copy">
               <p className="eyebrow">Marcenaria com intenção</p>
               <h2>Não fazemos apenas móveis.<br /><em>Desenhamos possibilidades.</em></h2>
-              <p className="lead-copy">A Decora nasceu para criar ambientes que façam sentido na vida real. Unimos o olhar de projeto à precisão da marcenaria para entregar móveis planejados que organizam, acolhem e deixam a casa com a sua cara.</p>
+              <p className="lead-copy">A Decore nasceu para criar ambientes que façam sentido na vida real. Unimos o olhar de projeto à precisão da marcenaria para entregar móveis planejados que organizam, acolhem e deixam a casa com a sua cara.</p>
               <p className="body-copy">Do primeiro rabisco à instalação, você acompanha um processo cuidadoso, transparente e próximo. Cada escolha — proporção, textura, ferragem e cor — é pensada para durar e fazer parte da sua história.</p>
               <a className="text-link" href={whatsappBase} target="_blank" rel="noreferrer">Conversar sobre meu projeto <ArrowRight size={16} /></a>
             </div>
-            <div className="about-statement"><Sparkles size={20} /><p>“A melhor casa é aquela que reconhece quem mora nela.”</p><span>— Decora Marcenaria</span></div>
+            <div className="about-statement"><Sparkles size={20} /><p>“A melhor casa é aquela que reconhece quem mora nela.”</p><span>— Decore Marcenaria</span></div>
           </div>
         </section>
 
@@ -144,7 +144,7 @@ export default function Home() {
 
         <section className="feature-section section-padding">
           <div className="container feature-grid">
-            <div className="feature-photo-wrap"><img src="/manus-storage/decora-kitchen_0bd6714e.jpg" alt="Cozinha planejada em madeira natural e tons claros" /><div className="photo-label"><span>Projeto Decora</span><span>Cozinha · 2025</span></div></div>
+            <div className="feature-photo-wrap"><img src="/manus-storage/decora-kitchen_0bd6714e.jpg" alt="Cozinha planejada em madeira natural e tons claros" /><div className="photo-label"><span>Projeto Decore</span><span>Cozinha · 2025</span></div></div>
             <div className="feature-copy"><p className="eyebrow">Matéria, luz e proporção</p><h2>A beleza mora<br /><em>nos detalhes.</em></h2><p>Materiais acolhedores, linhas precisas e soluções invisíveis se encontram para criar uma cozinha que funciona tão bem quanto encanta.</p><div className="feature-list"><div><Check size={16} /><span>Combinação de cores personalizada</span></div><div><Check size={16} /><span>MDF de alta qualidade e ferragens confiáveis</span></div><div><Check size={16} /><span>Instalação limpa e assistência próxima</span></div></div><a className="button button--dark" href={whatsappBase} target="_blank" rel="noreferrer">Quero um projeto assim <ArrowRight size={17} /></a></div>
           </div>
         </section>
@@ -157,18 +157,18 @@ export default function Home() {
         </section>
 
         <section className="testimonial-section section-padding">
-          <div className="container testimonial-layout"><div className="testimonial-intro"><p className="eyebrow">Quem vive a experiência</p><h2>Feito para<br /><em>ser vivido.</em></h2><div className="google-rating"><div className="rating-number">5.0</div><div><div className="stars" aria-label="5 de 5 estrelas">★★★★★</div><span>48 avaliações no Google</span></div></div></div><div className="testimonial-quote"><span className="quote-mark">“</span><blockquote>Desde o atendimento para o orçamento até a entrega final o contato foi sempre rápido e atencioso. O Richard deu boas sugestões para o projeto ficar ainda mais bonito, funcional e com qualidade.</blockquote><div className="quote-footer"><strong>Erick Bernard</strong><span>Cliente Decora · há 5 meses</span></div></div></div>
+          <div className="container testimonial-layout"><div className="testimonial-intro"><p className="eyebrow">Quem vive a experiência</p><h2>Feito para<br /><em>ser vivido.</em></h2><div className="google-rating"><div className="rating-number">5.0</div><div><div className="stars" aria-label="5 de 5 estrelas">★★★★★</div><span>48 avaliações no Google</span></div></div></div><div className="testimonial-quote"><span className="quote-mark">“</span><blockquote>Desde o atendimento para o orçamento até a entrega final o contato foi sempre rápido e atencioso. O Richard deu boas sugestões para o projeto ficar ainda mais bonito, funcional e com qualidade.</blockquote><div className="quote-footer"><strong>Erick Bernard</strong><span>Cliente Decore · há 5 meses</span></div></div></div>
         </section>
 
         <section className="contact-section section-padding" id="contato">
-          <div className="container contact-grid"><div className="contact-intro"><p className="eyebrow">Vamos criar juntos?</p><h2>Seu próximo ambiente<br /><em>começa aqui.</em></h2><p>Conte um pouco do que você imagina. A nossa equipe retorna para entender seu projeto e preparar um orçamento sem compromisso.</p><div className="contact-details"><a href={`tel:+553131819006`}><Phone size={17} /><span><small>ligue ou mande uma mensagem</small>{phone}</span></a><a href={mapUrl} target="_blank" rel="noreferrer"><MapPin size={17} /><span><small>visite nosso endereço</small>Rua Luís Lyrio, 208 · Contagem — MG</span></a></div><div className="contact-social"><a href={whatsappBase} target="_blank" rel="noreferrer">WhatsApp <ArrowRight size={15} /></a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><Instagram size={15} /> Instagram</a></div></div><form className="contact-form" onSubmit={handleSubmit}><div className="form-label">ORÇAMENTO SEM COMPROMISSO</div><label>Como podemos chamar você?<input required value={form.name} onChange={(event) => setForm({ ...form, name: event.target.value })} placeholder="Seu nome" /></label><label>Seu telefone ou WhatsApp<input required value={form.contact} onChange={(event) => setForm({ ...form, contact: event.target.value })} placeholder="(00) 00000-0000" /></label><label>O que você gostaria de transformar?<textarea required value={form.project} onChange={(event) => setForm({ ...form, project: event.target.value })} placeholder="Ex.: cozinha, quarto, home office..." rows={3} /></label><button className="button button--copper button--full" type="submit">Enviar pelo WhatsApp <ArrowRight size={17} /></button><small className="form-note">Ao enviar, você será direcionado para uma conversa no WhatsApp da Decora.</small></form></div>
+          <div className="container contact-grid"><div className="contact-intro"><p className="eyebrow">Vamos criar juntos?</p><h2>Seu próximo ambiente<br /><em>começa aqui.</em></h2><p>Conte um pouco do que você imagina. A nossa equipe retorna para entender seu projeto e preparar um orçamento sem compromisso.</p><div className="contact-details"><a href={`tel:+553131819006`}><Phone size={17} /><span><small>ligue ou mande uma mensagem</small>{phone}</span></a><a href={mapUrl} target="_blank" rel="noreferrer"><MapPin size={17} /><span><small>visite nosso endereço</small>Rua Luís Lyrio, 208 · Contagem — MG</span></a></div><div className="contact-social"><a href={whatsappBase} target="_blank" rel="noreferrer">WhatsApp <ArrowRight size={15} /></a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><Instagram size={15} /> Instagram</a></div></div><form className="contact-form" onSubmit={handleSubmit}><div className="form-label">ORÇAMENTO SEM COMPROMISSO</div><label>Como podemos chamar você?<input required value={form.name} onChange={(event) => setForm({ ...form, name: event.target.value })} placeholder="Seu nome" /></label><label>Seu telefone ou WhatsApp<input required value={form.contact} onChange={(event) => setForm({ ...form, contact: event.target.value })} placeholder="(00) 00000-0000" /></label><label>O que você gostaria de transformar?<textarea required value={form.project} onChange={(event) => setForm({ ...form, project: event.target.value })} placeholder="Ex.: cozinha, quarto, home office..." rows={3} /></label><button className="button button--copper button--full" type="submit">Enviar pelo WhatsApp <ArrowRight size={17} /></button><small className="form-note">Ao enviar, você será direcionado para uma conversa no WhatsApp da Decore.</small></form></div>
         </section>
 
         <section className="hours-bar"><div className="container hours-inner"><div className="hours-title"><Clock3 size={20} /><span><strong>Horário de atendimento</strong><small>Fale com a gente no melhor momento para você.</small></span></div><div className="hours-list"><span><strong>Seg–Sex</strong> 08:00–17:00</span><span><strong>Sábado</strong> 08:00–13:00</span><span className="closed">Domingo fechado</span></div></div></section>
       </main>
 
-      <footer className="site-footer"><div className="container footer-inner"><a className="brand brand--footer" href="#inicio"><span className="brand-mark"><span>D</span></span><span className="brand-copy"><strong>decora</strong><small>marcenaria de móveis planejados</small></span></a><p>Projetos que transformam espaços<br />em lugares para viver bem.</p><span className="footer-copy">© 2025 Decora Marcenaria · Contagem, MG</span></div></footer>
-      <a className="floating-whatsapp" href={whatsappBase} target="_blank" rel="noreferrer" aria-label="Falar com a Decora pelo WhatsApp"><span>Fale com a Decora</span><Phone size={19} /></a>
+      <footer className="site-footer"><div className="container footer-inner"><a className="brand brand--footer" href="#inicio"><span className="brand-mark" aria-hidden="true"><span>D</span></span><span className="brand-copy"><strong>Decore</strong><small>marcenaria de móveis planejados</small></span></a><p>Projetos que transformam espaços<br />em lugares para viver bem.</p><span className="footer-copy">© 2025 Decore Marcenaria · Contagem, MG</span></div></footer>
+      <a className="floating-whatsapp" href={whatsappBase} target="_blank" rel="noreferrer" aria-label="Falar com a Decore pelo WhatsApp"><span>Fale com a Decore</span><Phone size={19} /></a>
     </div>
   );
 }
